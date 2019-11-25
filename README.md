@@ -66,3 +66,29 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+
+
+            // this.setState({
+            //     isLoginSuccess: true,
+            //     isLoginFailed: false
+            // })
+
+{/*<LoginSuccess isLoginSuccess={this.state.isLoginSuccess} />*/}
+                {/*<LoginFailed isLoginFailed = {this.state.isLoginFailed} />*/}
+
+// function LoginSuccess(props){
+//     if(props.isLoginSuccess)
+//         return <div>Login Successful</div>
+//     else
+//         return null
+// }
+
+// function LoginFailed(props){
+//     if(props.isLoginFailed)
+//         return <div>Invalid Credentials</div>
+//     return null
+// }
+
+// explore react router history api
